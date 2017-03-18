@@ -7,13 +7,13 @@
         },
         "edit-link": {
             "base": "https://github.com/Hoofoo-WHU/easyreading-handbook/edit/master/",
-            "label": "编辑此页"
+            "label": "编辑此页面"
         },
         "sharing": {
             "facebook": false,
             "twitter": false,
             "google": false,
-            "weibo": true,
+            "weibo": false,
             "instapaper": false,
             "vk": false,
             "all": []
