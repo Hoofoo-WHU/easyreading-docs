@@ -1,0 +1,22 @@
+{
+    "language": "zh-hans",
+    "plugins": [ "github", "anchors", "search-pro", "edit-link" ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/Hoofoo-WHU/easyreading-handbook"
+        },
+        "edit-link": {
+            "base": "https://github.com/Hoofoo-WHU/easyreading-handbook/edit/master/",
+            "label": "编辑此页"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": true,
+            "instapaper": false,
+            "vk": false,
+            "all": []
+        }
+    }
+}
