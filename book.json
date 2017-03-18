@@ -1,6 +1,6 @@
 {
     "language": "zh-hans",
-    "plugins": [ "github", "anchors", "search-pro", "edit-link" ],
+    "plugins": [ "github", "anchors", "search-pro", "edit-link", "-fontsettings", "prism", "-highlight" ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/Hoofoo-WHU/easyreading-handbook"
