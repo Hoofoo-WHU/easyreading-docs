@@ -6,7 +6,6 @@
 随阅易项目的所有`Click`事件全部需要由`v-tap`指令来实现，`v-tap`指令来源于 [Vue-Tap插件](https://github.com/MeCKodo/vue-tap)，用于快速相应用户的触摸事件。
 
 ### 基本用法
-> `v-tap={ methods : xxx , paramA : a,paramB:b}`
 
 ```html
 <ul>
