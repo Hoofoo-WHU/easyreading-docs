@@ -12,12 +12,13 @@
 easyreading
 ├── platforms //cordova平台目录，目前包括iOS、Android
 ├── plugins //cordova插件目录
-├─ www //cordova挂载目录
+├── www //cordova挂载目录
 ├── project //vue.js工程目录
 │   ├── build
 │   ├── config
-│   ├── src
-│   └── static
+│   ├── src //开发目录
+│   ├── static //静态资源
+│   └── index.html
 └─config.xml //cordova配置文件
 ```
 
