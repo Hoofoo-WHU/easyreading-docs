@@ -1,6 +1,7 @@
 .markdown-section blockquote{
     overflow: hidden;
     padding-top: .85em;
+    background: #f7f7f7 !important;
 }
 
 .markdown-section table td, .markdown-section table th{
