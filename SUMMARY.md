@@ -6,5 +6,5 @@
 
 ## 开发指南
 
-* [启程](huan-jing-pei-zhi.md)
+* [启程](start.md)
 
