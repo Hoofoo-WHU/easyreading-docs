@@ -13,7 +13,7 @@ easyreading
 ├── platforms //cordova平台目录，目前包括iOS、Android
 ├── plugins //cordova插件目录
 ├─ www //cordova挂载目录
-├── project //vue.js webpack工程目录
+├── project //vue.js工程目录
 │   ├── build
 │   ├── config
 │   ├── src
