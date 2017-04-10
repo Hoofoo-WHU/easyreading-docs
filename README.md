@@ -24,7 +24,6 @@ easyreading
 │   │   ├── App.vue //根组件
 │   │   ├── main.js //build挂载点
 │   │   └── main_dev.js //开发调试挂载点
-│   ├── static //全局静态资源
 │   └── index.html
 └─config.xml //cordova配置文件
 ```
