@@ -18,3 +18,9 @@
 .markdown-section table tr:nth-child(2n){
     background: none;
 }
+
+.markdown-section code{
+    margin: 0 .2em;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', Monaco, courier, monospace;
+}
