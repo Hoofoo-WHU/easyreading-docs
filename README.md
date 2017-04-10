@@ -8,7 +8,7 @@
 ## 约定
 
 #### 项目结构
-```c
+```js
 easyreading
 ├── platforms //cordova平台目录，目前包括iOS、Android
 ├── plugins //cordova插件目录
