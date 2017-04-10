@@ -24,3 +24,7 @@
     border-radius: 4px;
     font-family: 'Roboto Mono', Monaco, courier, monospace;
 }
+
+:not(pre) > code[class*="language-"], pre[class*="language-"]{
+    background: #f7f7f7;
+}
