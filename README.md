@@ -17,7 +17,7 @@ easyreading
 │   ├── build
 │   ├── config
 │   ├── src //开发目录
-│   ├── static //静态资源
+│   ├── static //全局静态资源
 │   └── index.html
 └─config.xml //cordova配置文件
 ```
