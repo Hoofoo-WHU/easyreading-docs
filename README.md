@@ -17,6 +17,9 @@
 {% hint style='info' %}
 Important info: this note needs to be highlighted
 {% endhint %}
+{% blurb style='error', title='Important notice' %}
+Render this link: [Google](https://google.com)
+{% endblurb %}
 
 #### 结构
 开发可能涉及到的目录结构如下：
