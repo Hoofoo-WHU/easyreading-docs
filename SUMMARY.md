@@ -4,9 +4,9 @@
 
 * [开始](README.md)
 
-## 全局说明
+## 全局事件
 
-* [Tap](quan-ju-shuo-ming/tap.md)
+* [Tap](quan-ju-shi-jian/tap.md)
 
 ## 组件
 
