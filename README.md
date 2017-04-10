@@ -14,6 +14,10 @@
 > 遇到问题可以查看文档或与相关开发人员联系，**一定**不要修改他人负责的代码！
 >
 
+{% hint style='info' %}
+Important info: this note needs to be highlighted
+{% endhint %}
+
 #### 结构
 开发可能涉及到的目录结构如下：
 ```js
