@@ -1,6 +1,6 @@
 {
     "language": "zh-hans",
-    "plugins": [ "github", "anchors", "search-pro", "edit-link", "-fontsettings", "alerts", "hints", "blurbs" ],
+    "plugins": [ "github", "anchors", "search-pro", "edit-link", "-fontsettings", "alerts" ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/Hoofoo-WHU/easyreading"
