@@ -12,10 +12,31 @@
 - 将需要使用的svg文件放在`@/components/Icon/svg/`路径中
 
 ```html
-<icon name="settings"></icon>
+<icon name="settings" class="icon"></icon>
 <!--name属性是SVG文件的文件名-->
 ```
 
+```js
+import Icon from '@/components/Icon'
+export default {
+    components: {
+        Icon
+    }
+}
 ```
-nn
+
+```css
+.icon {
+    /*宽高必须设置，否则是0*/
+    width: 25px 
+    height: 25px
+    /*没填颜色的部分默认是黑色，想要透明将颜色设为'#00000000'*/
+    color: red
+}
 ```
+### Attributes
+
+|参数|说明|类型|可选值|默认值|
+|:-----|:-----|:-----|:-----|:-----|
+|name|图标的名称|string|`@/components/Icon/svg/`中的`SVG`文件名|-|
+
