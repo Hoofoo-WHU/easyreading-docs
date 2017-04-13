@@ -39,5 +39,5 @@ export default {
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
 |name|图标的名称|String|`@/components/Icon/svg/`中的`SVG`文件名|-|
-|spin|开启旋转动画|Boolean|
+|spin|开启旋转动画|Boolean|`true`、`false`|`false`|
 
