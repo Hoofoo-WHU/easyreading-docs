@@ -13,6 +13,7 @@
 ## 组件
 
 * [Scroller](zu-jian/scroller.md)
+* [Icon](zu-jian/icon.md)
 
 ## 模块
 
