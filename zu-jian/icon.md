@@ -8,7 +8,7 @@
 ###基本用法
 - 推荐使用[IconFont](http://www.iconfont.cn)下载的图标
 - `SVG`文件中的图形不设置`stroke-width`属性或者设置为`0`
-- `SVG`文件中需要在css中修改颜色的图形不设置`fill`属性
+- `SVG`文件中需要在`CSS`中修改颜色的图形不设置`fill`属性
 - 将需要使用的svg文件放在`@/components/Icon/svg/`路径中
 
 ```html
@@ -38,5 +38,6 @@ export default {
 
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
-|name|图标的名称|string|`@/components/Icon/svg/`中的`SVG`文件名|-|
+|name|图标的名称|String|`@/components/Icon/svg/`中的`SVG`文件名|-|
+|spin|开启旋转动画|Boolean|
 

@@ -53,7 +53,7 @@ easyreading
 
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
-|size|控件的大小|string|large、normal、small|-|
+|size|控件的大小|String|large、normal、small|-|
 
 #### Events
 对应Vue组件会触发的事件，格式如下例所示：
