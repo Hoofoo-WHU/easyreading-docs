@@ -37,7 +37,7 @@ export default {
 |refreshingText|正在刷新提示文字|`String`|-|`加载中...`|
 |pullRefreshText|下拉刷新提示文字|`String`|-|`下拉刷新`|
 |activeRefreshText|激活刷新提示文字|`String`|-|`释放刷新`|
-|refreshIcon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`refresh`|
+|refreshIcon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`loading`|
 ### Events
 
 |事件名称|说明|回调参数|
