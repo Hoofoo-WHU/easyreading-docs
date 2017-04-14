@@ -8,6 +8,10 @@
 
 * [Tap](quan-ju-shi-jian/tap.md)
 
+## 全局属性
+
+* [$platform](quan-ju-shu-xing/platform.md)
+
 ## 全局存储
 
 ## 组件
