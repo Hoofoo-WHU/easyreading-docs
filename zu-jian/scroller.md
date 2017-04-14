@@ -4,7 +4,7 @@
 
 ### 基本用法
 ``` html
-<scroller style="flex: 1" ref="scroller">
+<scroller style="flex: 1" ref="scroller" @pullRefresh="refresh" canPullRefresh>
   <div>content</div>
 </scroller>
 ```
@@ -17,6 +17,10 @@ export default {
   methods: {
     scrollTop () {
       this.$refs.scroller.scrollTop()
+    },
+    refresh (over) {
+      // 加载内容
+      over()//加载完毕后调用，放在合适的位置
     }
   }
 }
@@ -33,6 +37,7 @@ export default {
 |refreshingText|正在刷新提示文字|`String`|-|`加载中...`|
 |pullRefreshText|下拉刷新提示文字|`String`|-|`下拉刷新`|
 |activeRefreshText|激活刷新提示文字|`String`|-|`释放刷新`|
+|refreshIcon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`refresh`|
 ### Events
 
 |事件名称|说明|回调参数|
