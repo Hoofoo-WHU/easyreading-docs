@@ -25,6 +25,12 @@ export default {
 >
 > Scroller一定要设置大小且滚动内容不能脱离文档流，否则将无法正常运行。
 
+### BottomBarItem Attributes
+
+|参数|说明|类型|可选值|默认值|
+|:-----|:-----|:-----|:-----|:-----|
+|canPullRefresh|开启下拉刷新|Boolean|`true`、`false`|`false`|
+
 ### Events
 
 |事件名称|说明|回调参数|
@@ -32,6 +38,7 @@ export default {
 |beforeScrollStart|在用户触摸屏幕但还没有开始滚动时触发|-|
 |scrollStart|开始滚动时触发|-|
 |scrollEnd|停止滚动时触发|-|
+|pullRefresh|下拉刷新时触发|`over`:通知`Scroller`刷新完毕|
 
 ### Slots
 
