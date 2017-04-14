@@ -46,7 +46,7 @@ export default {
 |scrollTop|滚动到顶部|-|
 |scrollTo|滚动到任意的位置|x:横坐标,y:纵坐标|
 |scrollBy|从当前位置进行滚动|x:横坐标,y:纵坐标|
-|refresh|刷新滚动区域，当滚动内容改动后需要调用|-|
+|refresh|刷新滚动区域大小，当滚动内容改动后需要调用|-|
 
 
 
