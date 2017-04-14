@@ -20,3 +20,8 @@ export default {
     }
 }
 ```
+
+### 可选值
+|iOS|Android|Development|
+|:------|:------|:------|
+|`ios`|`android`|`dev`|
