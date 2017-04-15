@@ -31,7 +31,7 @@ export default {
 
 |name|说明|
 |:-----|:-----|
-|-|容纳BottomBarItems|
+|-|容纳`BottomBarItems`|
 
 ### BottomBarItem Attributes
 
