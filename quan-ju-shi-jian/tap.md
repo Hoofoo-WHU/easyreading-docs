@@ -9,24 +9,23 @@
 
 ```html
 <ul>
-	<li v-for="(item,index) in list"
-		v-tap="{ methods:args , index : index, item:item }">
+  <li v-for="(item,index) in list" v-tap="{ methods:args , index : index, item:item }">
 		{{item.name}}---{{item.age}}
-	</li>
+  </li>
 </ul>
 ```
 
 ```javascript
 methods : {
-	args : function(params) {
-		// v-for循环带参数的回调
-		console.log('---params.event---',params.event) // 原生事件
-		console.log('---params.tapObj---',params.tapObj)
-		console.log('---params.index---',params.index)
-		console.log('---params.el---',params.el)
-		//params.tapObj 可获得 tap的一些参数
-		//pageX,pageY,clientX,clientY,distanceX,distanceY
-		//后面2个分别的手指可能移动的位置(以后可用于拓展手势)
-	}
+  args : function(params) {
+    // v-for循环带参数的回调
+    console.log('---params.event---',params.event) // 原生事件
+    console.log('---params.tapObj---',params.tapObj)
+    console.log('---params.index---',params.index)
+    console.log('---params.el---',params.el)
+    //params.tapObj 可获得 tap的一些参数
+    //pageX,pageY,clientX,clientY,distanceX,distanceY
+    //后面2个分别的手指可能移动的位置(以后可用于拓展手势)
+  }
 }
 ```
