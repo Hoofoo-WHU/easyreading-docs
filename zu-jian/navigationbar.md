@@ -8,23 +8,18 @@
 - `NavigationBar`作为容器与`NavigationBarItem`成对使用
 
 ```html
-<navigation-bar v-tap.prevent="{methods: scrollTop}" :title="router">
-  <navigation-bar-item v-tap="{methods: test}" slot="left" text="测试" icon="back" disable/>
-  <navigation-bar-item v-tap="{methods: test}" slot="right" text="测试" right-icon/>
+<navigation-bar :title="title">
+  <navigation-bar-item slot="left" text="返回" icon="back" disable/>
+  <navigation-bar-item slot="right" icon="search"  right-icon/>
 </navigation-bar>
 ```
 ```js
-import { BottomBar, BottomBarItem } from '@/component/BottomBar'
+import { NavigationBar, NavigationBarItem } from '@/components/NavigationBar'
 export default {
-    components: {
-        BottomBar,
-        BottomBarItem
-    },
-    data () {
-        return {
-            active: true
-        }
-    }
+  components: {
+    NavigationBar,
+    NavigationBarItem
+  }
 }
 ```
 
