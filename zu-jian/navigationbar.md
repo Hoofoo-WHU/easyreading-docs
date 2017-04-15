@@ -19,15 +19,28 @@ export default {
   components: {
     NavigationBar,
     NavigationBarItem
+  },
+  data () {
+    return {
+      title: '我是标题党'
+    }
   }
 }
 ```
+### NavigationBar Attributes
 
-### BottomBar Slots
+|参数|说明|类型|可选值|默认值|
+|:-----|:-----|:-----|:-----|:-----|
+|title|标题文字|`String`|-|`''`|
+|sub-title|副标题文字|`String`|-|`''`|
+
+### NavigationBar Slots
 
 |name|说明|
 |:-----|:-----|
-|-|容纳BottomBarItems|
+|-|容纳自定义的顶栏布局，设置后其他`slot`、`title`和`sub-title`失效|
+|left|左侧的`NavigationBarItem`|
+|right|右侧的`NavigationBarItem`|
 
 ### BottomBarItem Attributes
 
