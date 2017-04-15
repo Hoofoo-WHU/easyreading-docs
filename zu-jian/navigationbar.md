@@ -48,5 +48,5 @@ export default {
 |:-----|:-----|:-----|:-----|:-----|
 |text|显示的文字|`String`|-|`''`|
 |icon|图标的名称|`String`|`@/components/Icon/svg/`中的`SVG`文件名|-|
+|right-icon|设置图标位置在右边|`Boolean`|`true`、`false`|`false`|
 |disable|设为不可用|`Boolean`|`true`、`false`|`false`|
-
