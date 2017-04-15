@@ -15,15 +15,15 @@
 ```js
 import { BottomBar, BottomBarItem } from '@/component/BottomBar'
 export default {
-    components: {
-        BottomBar,
-        BottomBarItem
-    },
-    data () {
-        return {
-            active: true
-        }
+  components: {
+    BottomBar,
+    BottomBarItem
+  },
+  data () {
+    return {
+      active: true
     }
+  }
 }
 ```
 

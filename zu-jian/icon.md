@@ -19,19 +19,19 @@
 ```js
 import Icon from '@/components/Icon'
 export default {
-    components: {
-        Icon
-    }
+  components: {
+    Icon
+  }
 }
 ```
 
 ```css
 .icon {
-    /*宽高必须设置，否则是0*/
-    width: 25px 
-    height: 25px
-    /*没填颜色的部分默认是黑色，想要透明将颜色设为'#00000000'*/
-    color: red
+  /*宽高必须设置，否则是0*/
+  width: 25px;
+  height: 25px;
+  /*没填颜色的部分默认是黑色，想要透明将颜色设为'#00000000'*/
+  color: red;
 }
 ```
 ### Attributes
