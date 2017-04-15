@@ -19,6 +19,7 @@
 * [Scroller](zu-jian/scroller.md)
 * [Icon](zu-jian/icon.md)
 * [BottomBar](zu-jian/bottombar.md)
+* [NavigationBar](zu-jian/navigationbar.md)
 
 ## 模块
 

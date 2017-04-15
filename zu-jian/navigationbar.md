@@ -1,16 +1,17 @@
 负责人：王硕
 
-## BottomBar
-底栏模块
+## NavigationBar
+顶栏模块
 
 ### 基本用法
 
-- `BottomBar`作为容器与`BottomBarItem`成对使用
+- `NavigationBar`作为容器与`NavigationBarItem`成对使用
 
 ```html
-<bottom-bar class="bottom-bar">
-  <bottom-bar-item icon="settings" name="设置" :active="active"></bottom-bar-item>
-</bottom-bar>
+<navigation-bar v-tap.prevent="{methods: scrollTop}" :title="router">
+  <navigation-bar-item v-tap="{methods: test}" slot="left" text="测试" icon="back" disable/>
+  <navigation-bar-item v-tap="{methods: test}" slot="right" text="测试" right-icon/>
+</navigation-bar>
 ```
 ```js
 import { BottomBar, BottomBarItem } from '@/component/BottomBar'
