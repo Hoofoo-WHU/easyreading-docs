@@ -33,11 +33,11 @@ export default {
 
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
-|canPullRefresh|开启下拉刷新|`Boolean`|`true`、`false`|`false`|
-|refreshingText|正在刷新提示文字|`String`|-|`加载中...`|
-|pullRefreshText|下拉刷新提示文字|`String`|-|`下拉刷新`|
-|activeRefreshText|激活刷新提示文字|`String`|-|`释放刷新`|
-|refreshIcon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`loading`|
+|can-pull-refresh|开启下拉刷新|`Boolean`|`true`、`false`|`false`|
+|refreshing-text|正在刷新提示文字|`String`|-|`加载中...`|
+|pullRefresh-text|下拉刷新提示文字|`String`|-|`下拉刷新`|
+|activeRefresh-text|激活刷新提示文字|`String`|-|`释放刷新`|
+|refresh-icon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`loading`|
 ### Events
 
 |事件名称|说明|回调参数|
