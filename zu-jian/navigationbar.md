@@ -56,4 +56,10 @@ export default {
 |right-icon|设置图标位置在右边|`Boolean`|`true`、`false`|`false`|
 |disable|设为不可用|`Boolean`|`true`、`false`|`false`|
 
+### NavigationBarItem Events
+
+|事件名称|说明|回调参数|
+|:-----|:-----|:-----|
+|tap|当用户点击了Item时触发|-|
+
 
