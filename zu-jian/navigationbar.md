@@ -10,7 +10,7 @@
 ```html
 <navigation-bar :title="title">
   <navigation-bar-item slot="left" text="返回" icon="back" disable/>
-  <navigation-bar-item slot="right" icon="search"  right-icon/>
+  <navigation-bar-item @tap="tap" slot="right" icon="search"  right-icon/>
 </navigation-bar>
 ```
 ```js
@@ -23,6 +23,11 @@ export default {
   data () {
     return {
       title: '我是标题党'
+    }
+  },
+  methods: {
+    tap () {
+      console.log('tap!')
     }
   }
 }
