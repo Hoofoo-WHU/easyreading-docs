@@ -3,7 +3,7 @@
 替代`Click`事件，迅速响应触摸事件
 
 ### 说明
-随阅易项目的所有`Click`事件全部需要由`v-tap`指令来实现，`v-tap`指令来源于 [Vue-Tap插件](https://github.com/MeCKodo/vue-tap)，用于快速相应用户的触摸事件。
+随阅易项目中，对于所有未给出触摸事件的组件的`Click`事件全部需要由`v-tap`指令来实现，`v-tap`指令来源于 [Vue-Tap插件](https://github.com/MeCKodo/vue-tap)，用于快速相应用户的触摸事件。
 
 ### 基本用法
 
