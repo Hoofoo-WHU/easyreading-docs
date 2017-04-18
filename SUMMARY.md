@@ -6,7 +6,7 @@
 
 ## 全局事件
 
-* [Tap](quan-ju-shi-jian/tap.md)
+* [Touch](quan-ju-shi-jian/tap.md)
 
 ## 全局属性
 

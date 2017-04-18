@@ -1,31 +1,23 @@
 负责人：王硕
-## Tap
-替代`Click`事件，迅速响应触摸事件
+## Touch
+移动端触屏事件的解决方案
 
 ### 说明
-随阅易项目中，对于所有未给出触摸事件的组件的`Click`事件全部需要由`v-tap`指令来实现，`v-tap`指令来源于 [Vue-Tap插件](https://github.com/MeCKodo/vue-tap)，用于快速相应用户的触摸事件。
+随阅易项目中，对于所有未给出触摸事件的组件c，所有的触摸事件都由`touch`来实现，`touch`来源于[vue-touch](https://github.com/vuejs/vue-touch/tree/next)插件，基于`Hammer.js`，这里只介绍基本的使用方法，具体方法请查看[vue-touch文档](https://github.com/vuejs/vue-touch/tree/next)
 
-### 基本用法
-
+### 基本使用
 ```html
-<ul>
-  <li v-for="(item,index) in list" v-tap="{ methods:args , index : index, item:item }">
-		{{item.name}}---{{item.age}}
-  </li>
-</ul>
+<touch @tap="tap">
+  <div class="content"></div>
+</touch>
+<!--touch标签相当于一个div-->
 ```
-
-```javascript
-methods : {
-  args : function(params) {
-    // v-for循环带参数的回调
-    console.log('---params.event---',params.event) // 原生事件
-    console.log('---params.tapObj---',params.tapObj)
-    console.log('---params.index---',params.index)
-    console.log('---params.el---',params.el)
-    //params.tapObj 可获得 tap的一些参数
-    //pageX,pageY,clientX,clientY,distanceX,distanceY
-    //后面2个分别的手指可能移动的位置(以后可用于拓展手势)
+```js
+export default {
+  methods: {
+    tap () {
+      console.log('tap!')
+    }
   }
 }
 ```
