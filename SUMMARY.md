@@ -20,6 +20,7 @@
 * [Icon](zu-jian/icon.md)
 * [BottomBar](zu-jian/bottombar.md)
 * [NavigationBar](zu-jian/navigationbar.md)
+* [RouterWrapper](zu-jian/routerwrapper.md)
 
 ## 模块
 
