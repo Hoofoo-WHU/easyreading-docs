@@ -7,3 +7,11 @@
   <div style="flex: 1;" class="content"></div>
 </router-content>
 ```
+```js
+import RouterContent from '@/components/RouterContent'
+export default {
+  components: {
+    RouterContent
+  }
+}
+```
