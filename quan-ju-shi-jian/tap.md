@@ -22,4 +22,5 @@ export default {
 }
 ```
 ### 支持的操作
-`pan`、`pinch`、`rotate`、`swipe`、`tap`，
+`pan`、`pinch`、`rotate`、`swipe`、`tap`，详情请查看[vue-touch文档](https://github.com/vuejs/vue-touch/tree/next)。
+
