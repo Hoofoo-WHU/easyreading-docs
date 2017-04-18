@@ -15,3 +15,5 @@ export default {
   }
 }
 ```
+> **[info]** 提示
+**RouterContent**默认使用`flex`布局
