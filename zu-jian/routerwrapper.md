@@ -19,10 +19,10 @@ export default {
 }
 ```
 ```css
-.slide-fade-enter-active, .slide-fade-leave-active {
+.fade-enter-active, .fade-leave-active {
   transition: all .8s;
 }
-.slide-fade-enter, .slide-fade-leave-active {
+.fade-enter, .fade-leave-active {
   opacity: 0;
 }
 ```
