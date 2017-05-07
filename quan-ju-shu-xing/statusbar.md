@@ -22,4 +22,4 @@ export default {
 }
 ```
 ### 说明
-$http是Axios的实例，更多详细使用查看[Axios官方文档](https://github.com/mzabriskie/axios)
+$statusBar是`cordova-plugin-statusbar`插件的实例，更多使用方法查看[cordova-plugin-statusbar文档](https://github.com/apache/cordova-plugin-statusbar)
