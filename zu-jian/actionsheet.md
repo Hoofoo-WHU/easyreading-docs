@@ -5,8 +5,35 @@
 ### 基本用法
 
 ```html
-<action-sheet>
-  <action-sheet-item></action-sheet-item>
-  <action-sheet-item></action-sheet-item>
+<action-sheet :show="show" @cancel="cancel">
+  <action-sheet-item>
+    <button @click="click('item1')">item1</button>
+  </action-sheet-item>
+  <action-sheet-item>
+    <button @click="click('item2')">item2</button>
+  </action-sheet-item>
 </action-sheet>
+```
+```javascript
+import { ActionSheet, ActionSheetItem } from '@/components/ActionSheet'
+export default {
+  components: {
+    ActionSheet,
+    ActionSheetItem
+  },
+  data () {
+    return {
+      show: false
+    }
+  },
+  methods: {
+    cancel () {
+      this.show = false
+    },
+    click (item) {
+      console.log(item)
+    }
+  }
+}
+
 ```
