@@ -12,6 +12,7 @@
 
 * [$platform](quan-ju-shu-xing/platform.md)
 * [$http](quan-ju-shu-xing/http.md)
+* [$statusBar](quan-ju-shu-xing/statusbar.md)
 
 ## 全局存储
 
