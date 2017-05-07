@@ -11,6 +11,7 @@
 ## 全局属性
 
 * [$platform](quan-ju-shu-xing/platform.md)
+* [$http](quan-ju-shu-xing/http.md)
 
 ## 全局存储
 
