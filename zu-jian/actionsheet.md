@@ -27,6 +27,9 @@ export default {
     }
   },
   methods: {
+    showActionSheet () {
+      this.show = true
+    },
     cancel () {
       this.show = false
     },
