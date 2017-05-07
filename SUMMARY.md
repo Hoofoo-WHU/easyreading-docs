@@ -18,7 +18,6 @@
 
 ## 组件
 
-* test
 * [Scroller](zu-jian/scroller.md)
 * [Icon](zu-jian/icon.md)
 * [BottomBar](zu-jian/bottombar.md)
@@ -27,7 +26,7 @@
 * [RouterContent](zu-jian/routercontent.md)
 * [ActionSheet](zu-jian/actionsheet.md)
 
-## 模块2222
+## 模块
 
 * [模块约定](mo-kuai/mo-kuai-yue-ding.md)
 
