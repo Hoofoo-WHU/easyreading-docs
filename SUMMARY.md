@@ -24,6 +24,7 @@
 * [NavigationBar](zu-jian/navigationbar.md)
 * [RouterWrapper](zu-jian/routerwrapper.md)
 * [RouterContent](zu-jian/routercontent.md)
+* [ActionSheet](zu-jian/actionsheet.md)
 
 ## 模块
 
