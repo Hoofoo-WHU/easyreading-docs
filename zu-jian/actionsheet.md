@@ -52,3 +52,16 @@ export default {
 |事件名称|说明|回调参数|
 |:-----|:-----|:-----|
 |cancel|当用户点击了Cancel时触发|-|
+
+### ActionSheet Slots
+
+|name|说明|
+|:-----|:-----|
+|-|ActionSheet的内容，可以使用ActionSheetItem进行垂直划分区域|
+
+### ActionSheetItem Slots
+
+|name|说明|
+|:-----|:-----|
+|-|ActionSheetItem的内容|
+
