@@ -40,3 +40,8 @@ export default {
 }
 
 ```
+### ActionSheet Events
+
+|事件名称|说明|回调参数|
+|:-----|:-----|:-----|
+|cancel|当用户点击了Cancel时触发|-|
