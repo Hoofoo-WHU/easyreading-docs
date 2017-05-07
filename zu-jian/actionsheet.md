@@ -1,6 +1,6 @@
 负责人：王硕
 ## ActionSheet
-底部弹出组件，单独使用或配合`ActionSheetItem`进行划分区域使用，默认`z-index:300`。
+底部弹出组件，单独使用或配合`ActionSheetItem`进行划分区域使用，默认`z-index:300`
 
 ### 基本用法
 
