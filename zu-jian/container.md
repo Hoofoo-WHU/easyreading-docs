@@ -20,15 +20,6 @@ export default {
   components: {
     Scroller,
     Container
-  },
-  methods: {
-    scrollTop () {
-      this.$refs.scroller.scrollTop()
-    },
-    refresh (over) {
-      // 加载内容
-      over()//加载完毕后调用，放在合适的位置
-    }
   }
 }
 ```
