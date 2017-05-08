@@ -6,7 +6,10 @@
 ``` html
 <scroller style="flex-grow: 1" ref="scroller">
   <container title="标题1">
-    <!--内容-->
+    <!--内容1-->
+  </container>
+  <container title="标题2">
+    <!--内容2-->
   </container>
 </scroller>
 ```
