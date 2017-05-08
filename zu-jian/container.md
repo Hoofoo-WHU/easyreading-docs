@@ -22,20 +22,14 @@ export default {
     Container
   }
 }
-```
-> **[danger] 注意**
->
-> Scroller一定要设置大小且滚动内容不能脱离文档流，否则将无法正常运行。
 
-### BottomBarItem Attributes
+### Container Attributes
 
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
-|can-pull-refresh|开启下拉刷新|`Boolean`|`true`、`false`|`false`|
-|refreshing-text|正在刷新提示文字|`String`|-|`加载中...`|
-|pullRefresh-text|下拉刷新提示文字|`String`|-|`下拉刷新`|
-|activeRefresh-text|激活刷新提示文字|`String`|-|`释放刷新`|
-|refresh-icon|刷新图标|`String`|`@/components/Icon/svg/`中的`SVG`文件名|`loading`|
+|title|标题|`String`|-|`""`|
+|border|是否显示边框|`Boolean`|-|`加载中...`|
+
 
 ### Events
 
