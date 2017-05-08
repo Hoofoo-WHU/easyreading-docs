@@ -5,7 +5,7 @@
 ### 基本用法
 ``` html
 <scroller style="flex-grow: 1" ref="scroller">
-  <container title="标题党">
+  <container title="标题1">
     <!--内容-->
   </container>
 </scroller>
