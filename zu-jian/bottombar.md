@@ -41,4 +41,6 @@ export default {
 |icon|图标的名称|`String`|`@/components/Icon/svg/`中的`SVG`文件名|-|
 |active|激活状态|`Boolean`|`true`、`false`|`false`|
 |disable|设为不可用|`Boolean`|`true`、`false`|`false`|
+|badge|强迫症小红点|`Boolean`|`true`、`false`|`false`|
+
 
