@@ -15,9 +15,11 @@
 ```
 ```js
 import Scroller from '@/components/Scroller'
+import Container from '@/components/Container'
 export default {
   components: {
-    Scroller
+    Scroller,
+    Container
   },
   methods: {
     scrollTop () {
