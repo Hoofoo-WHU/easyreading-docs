@@ -4,9 +4,9 @@
 
 ### 基本用法
 ``` html
-<scroller style="flex: 1" ref="scroller" @pullRefresh="refresh" canPullRefresh>
+<scroller style="flex-grow: 1" ref="scroller">
   <container title="标题党">
-    //内容
+    <!--内容-->
   </container>
 </scroller>
 ```
