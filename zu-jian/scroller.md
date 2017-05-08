@@ -4,7 +4,7 @@
 
 ### 基本用法
 ``` html
-<scroller style="flex: 1" ref="scroller" @pullRefresh="refresh" canPullRefresh>
+<scroller style="flex-grow: 1" ref="scroller" @pullRefresh="refresh" canPullRefresh>
   <div>content</div>
 </scroller>
 ```
