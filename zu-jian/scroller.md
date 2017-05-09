@@ -2,7 +2,7 @@
 ## Scroller
 跨平台相同操作体验的滚动组件。
 > **[info] 新增**
-> 使用v-model可以绑定是否在顶部的Boolean
+> 使用v-model可以绑定判断是否在顶部的Boolean值
 > 
 
 
