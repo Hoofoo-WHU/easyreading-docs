@@ -12,8 +12,7 @@
   <action-sheet-item>
     <button @click="click('item2')">item2</button>
   </action-sheet-item>
-  <action-sheet-button>
-  </action-sheet-button>
+  <action-sheet-button text="确定" @tap="tap"/>
 </action-sheet>
 ```
 ```javascript
@@ -37,6 +36,9 @@ export default {
     },
     click (item) {
       console.log(item)
+    },
+    tap () {
+      console.log('tap')
     }
   }
 }
