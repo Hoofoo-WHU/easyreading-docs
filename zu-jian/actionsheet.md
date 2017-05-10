@@ -15,7 +15,7 @@
 </action-sheet>
 ```
 ```javascript
-import { ActionSheet, ActionSheetItem } from '@/components/ActionSheet'
+import { ActionSheet, ActionSheetItem, ActionSheetButton } from '@/components/ActionSheet'
 export default {
   components: {
     ActionSheet,
