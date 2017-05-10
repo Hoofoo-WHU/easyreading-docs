@@ -12,6 +12,8 @@
   <action-sheet-item>
     <button @click="click('item2')">item2</button>
   </action-sheet-item>
+  <action-sheet-button>
+  </action-sheet-button>
 </action-sheet>
 ```
 ```javascript
