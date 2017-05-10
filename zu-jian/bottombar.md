@@ -42,5 +42,11 @@ export default {
 |active|激活状态|`Boolean`|`true`、`false`|`false`|
 |disable|设为不可用|`Boolean`|`true`、`false`|`false`|
 |badge|显示强迫症小红点|`Boolean`|`true`、`false`|`false`|
+|left-devide|左分隔线|`Boolean`|`true`、`false`|`false`|
+|right-devide|右分隔线|`Boolean`|`true`、`false`|`false`|
+
+
+
+
 
 
