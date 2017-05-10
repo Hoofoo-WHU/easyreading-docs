@@ -69,6 +69,7 @@ export default {
 |:-----|:-----|
 |-|ActionSheetItem的内容|
 ### ActionSheetButton Attributes
+|参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
 |text|显示的文字|`String`|-|``|
 
