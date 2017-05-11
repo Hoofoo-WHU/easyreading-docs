@@ -30,7 +30,7 @@ export default {
 |:-----|:-----|:-----|:-----|:-----|
 |title|标题|`String`|-|`""`|
 |devider|是否显示下分割线|`Boolean`|`true`、`false`|`false`|
-|more|是否显示更多按钮(需有标题)|`Boolean`|`true`、`false`|`false`|
+|more|是否显示更多按钮(需有title)|`Boolean`|`true`、`false`|`false`|
 
 
 
