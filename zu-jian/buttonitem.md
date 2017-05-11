@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     tap () {
-      this.$emit('tap')
+      console.log('tap')
     }
   }
 }
