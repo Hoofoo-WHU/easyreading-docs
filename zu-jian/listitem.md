@@ -25,6 +25,8 @@ export default {
 
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
+|text|显示的文字|`String`|-|`''`|
+|icon|左侧图标的名称|`String`|`@/components/Icon/svg/`中的`SVG`文件名|-|
 |right|显示默认的右箭头|`Boolean`|`true`、`false`|`false`|
 
 
@@ -32,7 +34,7 @@ export default {
 
 |name|说明|
 |:-----|:-----|
-|-|内容|
+|-|右侧操作区域（注意事件冒泡）|
 
 ### Events
 
