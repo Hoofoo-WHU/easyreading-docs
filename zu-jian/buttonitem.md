@@ -8,6 +8,7 @@
 ```html
 <template>
     <button-item @tap="tap" class="button">{{text}</button-item>
+    <!-- 默认100%宽度，自动高度，position为relative-->
 </template>
 ```
 ```js
