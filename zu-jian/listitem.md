@@ -5,6 +5,6 @@
 ### 基本用法
 ```html
 <template>
-<list-item v-for="item in 20" style="height: 53px;line-height: 53px;font-family: serif" :text="'第'+item+'章'" @tap="tap"></list-item>
+<list-item v-for="item in 20" style="height: 53px;line-height: 53px;" :text="'第'+item+'章'" @tap="tap"></list-item>
 </template>
 ```
