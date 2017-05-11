@@ -29,7 +29,7 @@ export default {
 |参数|说明|类型|可选值|默认值|
 |:-----|:-----|:-----|:-----|:-----|
 |title|标题|`String`|-|`""`|
-|devider|是否显示下分割线|`Boolean`|`true`、`false`|`true`|
+|devider|是否显示下分割线|`Boolean`|`true`、`false`|`false`|
 
 
 ### Slots
