@@ -10,3 +10,21 @@
     <button-item @tap="tap" class="button">{{text}</button-item>
 </template>
 ```
+```js
+import ButtonItem from '@/components/ButtonItem'
+export default {
+  name: 'ActionSheetButton',
+  components: {
+    ButtonItem
+  },
+  data () {
+    return {
+    }
+  },
+  methods: {
+    tap () {
+      this.$emit('tap')
+    }
+  }
+}
+```
