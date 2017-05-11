@@ -27,6 +27,7 @@
 * [ActionSheet](zu-jian/actionsheet.md)
 * [Container](zu-jian/container.md)
 * [ButtonItem](zu-jian/buttonitem.md)
+* [ListItem](zu-jian/listitem.md)
 
 ## 模块
 
