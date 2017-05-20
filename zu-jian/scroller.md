@@ -52,6 +52,7 @@ export default {
 |scrollStart|开始滚动时触发|-|
 |scrollEnd|停止滚动时触发|-|
 |pullRefresh|下拉刷新时触发|`over`:通知`Scroller`刷新完毕|
+|loadMore|上拉加载时触发|`over`:通知`Scroller`加载完毕，传入`true`则全部加载完毕不再触发|
 
 ### Slots
 
